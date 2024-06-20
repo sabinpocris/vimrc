@@ -1,0 +1,10 @@
+syntax enable
+colorscheme monokai
+filetype on
+set ignorecase
+set smartcase
+set termguicolors
+set autoindent
+set smarttab
+set nocompatible
+set clipboard=unnamed
