@@ -24,6 +24,7 @@ call plug#begin()
 
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+Plug 'tomtom/tcomment_vim'
 
 call plug#end()
 
@@ -37,3 +38,6 @@ nnoremap <silent> <Leader>f' :Marks<CR>
 nnoremap <silent> <Leader>fh :Helptags<CR>
 nnoremap <silent> <Leader>fh :History<CR>
 nnoremap <silent> <Leader>fm :Maps<CR>
+
+" window management stuff
+nnoremap <Leader>w <C-w>
