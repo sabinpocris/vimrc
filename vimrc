@@ -8,6 +8,8 @@ set termguicolors
 set autoindent
 set smarttab
 set clipboard=unnamed
+set backspace=indent,eol,start
+
 
 let mapleader = " "
 
