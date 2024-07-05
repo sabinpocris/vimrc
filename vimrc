@@ -2,13 +2,17 @@ syntax enable
 colorscheme monokai
 
 " defaults
-set ignorecase
-set smartcase
 set termguicolors
 set autoindent
+set smartindent
 set smarttab
 set clipboard=unnamed
 set backspace=indent,eol,start
+set nohlsearch
+set incsearch
+set scrolloff=7
+set ignorecase
+set smartcase
 
 
 let mapleader = " "
